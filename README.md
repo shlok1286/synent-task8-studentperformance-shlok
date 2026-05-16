@@ -51,10 +51,10 @@ Model performance is evaluated by comparing predicted scores with actual student
 
 ## Visualizations
 ### Actual vs Predicted Scores
-![Actual vs Predicted Scores](images/ActualVsPredictedScores.png)
+![Actual vs Predicted Scores](Images/ActualVsPredictedScores.png)
 
 ### Linear Regression Results
-![Linear Regression Results](images/LinearRegressionResults.png)
+![Linear Regression Results](Images/LinearRegressionResults.png)
 
 ## Business Insights
 - Students with lower preparation and support may underperform, so early intervention is important.
