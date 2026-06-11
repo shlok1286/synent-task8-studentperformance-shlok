@@ -58,10 +58,9 @@ def predict(payload, input_dict):
     raw = pd.DataFrame([input_dict])
     raw_proc = pd.get_dummies(raw, drop_first=True)
     # Align with training columns
-    X_in = pd.DataFrame(columns=columns)
-    for c in columns:
-        X_in.loc[0, c] = raw_proc.get(c, 0)
-    X_in = X_in.fillna(0).astype(float)
+    # Create a single-row DataFrame aligned to training columns
+    row = {c: (raw_proc.iloc[0][c] if c in raw_proc.columns else 0) for c in columns}
+    X_in = pd.DataFrame([row], columns=columns).fillna(0).astype(float)
     pred = model.predict(X_in)[0]
     return float(pred)
 
