@@ -69,8 +69,4 @@ Model performance is evaluated by comparing predicted scores with actual student
 ## Conclusion
 This project demonstrates how linear regression can forecast student performance using demographic and academic data. The model supports data-driven decisions for improving student outcomes and directing resources effectively.
 
-## Future Improvements
-- Use additional features like attendance and study time
-- Test other regression models such as Random Forest
-- Build a dashboard to monitor student progress
-- Incorporate student feedback or behavior data
+If you found this project interesting, consider giving the repository a star.
