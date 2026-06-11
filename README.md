@@ -3,6 +3,10 @@
 ## Project Title
 Student Performance Prediction using Linear Regression
 
+## 🌐 Live Application
+
+**GradePulse Dashboard:** https://gradepulse.streamlit.app/
+
 ## Problem Statement
 Educational institutions need to predict student performance to identify learners who may require additional support. This project analyzes student data and uses regression to forecast exam scores.
 
